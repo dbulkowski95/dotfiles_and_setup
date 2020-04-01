@@ -8,8 +8,10 @@ Here are my dotfiles config, just to have them in one place.
 ### Prerequisits
 - [Vim](https://www.vim.org/)
 
-Instaling from scrip, using `prepare.sh`, download the file beafore the repo:
+Instaling from script by using `set_up.sh`.
+ 
 ```bash
+git clone https://github.com/dbulkowski95/dotfiles_and_setup.git
 chmod +x set_up.sh
 ./set_up.sh
 ```
