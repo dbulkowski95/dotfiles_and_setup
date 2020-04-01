@@ -25,10 +25,6 @@ git config --list
 echo '### Installing Vim..'
 sudo apt-get install vim -y > /dev/null 2>&1
 
-## Set vim to default editor ##
-echo 'Set vim to default editor'
-[ -n $EDITOR ] && EDITOR=vim
-
 ## Tree ##
 echo '### Installing Tree..'
 sudo apt-get install tree -y > /dev/null 2>&1
